@@ -2,6 +2,8 @@
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
+Imports System.Web.Mvc
+Imports System.Web.Routing
 
 Namespace DevExpressMvcApplication1
     ' Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -18,10 +20,10 @@ Namespace DevExpressMvcApplication1
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
             routes.IgnoreRoute("{resource}.ashx/{*pathInfo}")
 
-            routes.MapRoute("Default", "{controller}/{action}/{id}", New With { _
-                Key .controller = "Home", _
-                Key .action = "Index", _
-                Key .id = UrlParameter.Optional _
+            routes.MapRoute("Default", "{controller}/{action}/{id}", New With {
+                Key .controller = "Home",
+                Key .action = "Index",
+                Key .id = UrlParameter.Optional
             })
 
         End Sub

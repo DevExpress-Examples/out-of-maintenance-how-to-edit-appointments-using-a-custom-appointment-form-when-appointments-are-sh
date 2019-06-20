@@ -1,8 +1,4 @@
-﻿@{
-    ViewBag.Title = "Some title";
-}
-
-<h2>Index</h2>
+﻿<h2>Index</h2>
 
 <script type="text/javascript">
     function OnAppointmentFormSave(s, e) {
@@ -70,6 +66,6 @@
     }
 </script>
 
-@model DevExpressMvcApplication1.Models.SchedulerDataObject
+@ModelType DevExpressMvcApplication1.Models.SchedulerDataObject
 @Html.Partial("SchedulerPartial", Model)
 

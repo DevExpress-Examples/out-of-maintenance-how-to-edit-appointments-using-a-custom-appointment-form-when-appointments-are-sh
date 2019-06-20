@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -10,7 +10,8 @@
     <ProjectGuid>{620CF833-7354-4329-B2DA-7E943437F132}</ProjectGuid>
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>DevExpressMvcApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
@@ -60,38 +61,112 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Pdf.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.SpellChecker.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxPivotGrid.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxSpellChecker.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxThemes.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxTreeList.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.Mvc.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraCharts.v15.2.Web, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPivotGrid.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.CodeParser.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraReports.v15.2.Web, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="EntityFramework">
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Charts.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Data.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Office.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.PivotGrid.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Pdf.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Printing.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.RichEdit.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.SpellChecker.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Utils.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxHtmlEditor.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxPivotGrid.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxScheduler.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxSpellChecker.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxThemes.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.ASPxTreeList.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.Mvc.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.Mvc.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Web.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.Web, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v15.2.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraPivotGrid.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Sparkline.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.CodeParser.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2.Web, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v15.2.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Core, Version=15.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraScheduler.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -106,27 +181,22 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.40804.0\lib\net40\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
@@ -138,11 +208,9 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
     </Reference>
     <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
     </Reference>
   </ItemGroup>
@@ -162,27 +230,20 @@
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
-    <Content Include="packages.config" />
+    <None Include="packages.config" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <None Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Shared\DisplayTemplates\Boolean.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Boolean.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\DateTime.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Decimal.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\MultilineText.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Password.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\String.cshtml" />
-    <Content Include="Views\Home\SchedulerPartial.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\SchedulerPartial.vbhtml" />
+    <None Include="Views\Home\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Home\CustomAppointmentFormPartial.cshtml" />
+    <None Include="Views\Shared\_Layout.vbhtml" />
+    <None Include="Views\_ViewStart.vbhtml" />
+    <None Include="Views\Home\CustomAppointmentFormPartial.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

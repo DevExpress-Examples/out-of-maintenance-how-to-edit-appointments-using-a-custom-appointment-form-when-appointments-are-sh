@@ -3,19 +3,22 @@ Imports System.Collections.Generic
 Imports System.ComponentModel.DataAnnotations
 Imports System.Linq
 Imports System.Web
+Imports DevExpress.Web.ASPxScheduler
+Imports DevExpress.Web.Mvc
+Imports DevExpress.XtraScheduler
 
 Namespace DevExpressMvcApplication1.Models
     Public Class ModelAppointment
         Public Sub New()
         End Sub
 
-        <Required> _
+        <Required>
         Public Property StartTime() As Date
 
-        <Required> _
+        <Required>
         Public Property EndTime() As Date
 
-        <Required> _
+        <Required>
         Public Property Subject() As String
 
         Public Property Status() As Integer
@@ -27,7 +30,7 @@ Namespace DevExpressMvcApplication1.Models
         Public Property RecurrenceInfo() As String
         Public Property ReminderInfo() As String
 
-        <Required, Display(Name := "Resource")> _
+        <Required, Display(Name:="Resource")>
         Public Property OwnerId() As String
         Public Property CustomInfo() As String
         Public Property ID() As Integer
