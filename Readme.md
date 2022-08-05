@@ -18,7 +18,7 @@
 <!-- run online end -->
 
 
-<p>This example demonstrates how to extend the approach demonstrated in the <a href="https://www.devexpress.com/Support/Center/p/T156298">How to create a custom Appointment form to work with custom fields (based on T153478)</a> example for the "Resources Sharing" scenario.</p>
+<p>This example demonstrates how to extend the approach demonstrated in the <a href="https://supportcenter.devexpress.com/ticket/details/t153478/how-to-create-a-custom-appointment-form-to-work-with-custom-fields-step-by-step">How to create a custom Appointment form to work with custom fields</a> example for the "Resources Sharing" scenario.</p>
 
 <br/>
 
